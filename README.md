@@ -13,3 +13,5 @@ This folder includes :
     3.  The dihedral vectors of all conformers are projected into their PCA components to reduce their dimensionality, assuring that at least 75% of the variance is retained.
 
     4.  K-means algorithm runs on the projected dihedral space, spanned by the PCA axes, with a fixed number of clusters. Then the lowest energy conformation of each cluster is selected, this procedure attempts to locate all local minima in the conformational space, although it is not guaranteed. In our case, 5 representative conformations are extracted.
+
+DOI: 10.1007/s10822-024-00561-5
